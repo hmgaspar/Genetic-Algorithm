@@ -67,7 +67,7 @@ x_min = 0
 # Feel free to correct it :) 
 pop_size = 100
 mutation_probability = 0.0
-number_of_generations = 1
+number_of_generations = 10
 
 
 #Variables & Lists to be used during the code
