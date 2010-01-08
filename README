@@ -1,0 +1,37 @@
+Matlab Code:
+
+The main code is the file ga_matlab.m.
+
+Since Matlab does not accept function declaration in the main script, 3 more files need to be copied to the same directory:
+
+roulette.m - function which performs a roulette wheel, ginven a vector of values and the total fitness.
+invchr.m - function which performs the inversion of a position in the chromossome
+x_function.m - function f(x). You need to modify this file to modify the function to be used in the code.
+
+In the main code, the main parameters are:
+
+Range of Values, with the maximum and minimum values for x
+x_max = 32;
+x_min = 0;
+
+GA Parameters:
+pop_size = 4; - Poulation Size
+mutation_probability = 0.5; - Total probability of happen a mutation in a chromosome
+number_of_generations = 20; - Number of Generations
+
+
+Python Code
+
+Similar to the Matlab one, except that the functions are defined inside the code.
+
+The only file that you need to run is ga_python.py
+
+You can get Ipython for windows in the website:
+http://ipython.scipy.org/moin/
+
+You may need an special library called "pylab" to plot the graphs:
+http://matplotlib.sourceforge.net/
+
+To run the code just type "run ga_python.py" in the comand line
+
+The GA parameters are the same as in the Matlab example.
