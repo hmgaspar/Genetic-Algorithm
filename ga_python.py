@@ -66,7 +66,7 @@ x_min = 0
 # Due my laziness to do the code, the population size must be a even number and the values for x are always integers.
 # Feel free to correct it :) 
 pop_size = 100
-mutation_probability = 0.0
+mutation_probability = 0.20
 number_of_generations = 10
 
 
